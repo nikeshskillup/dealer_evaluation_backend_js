@@ -1,9 +1,11 @@
 // Importing necessary libraries
 const express = require('express');
 const fs = require('fs');
+var cors = require('cors')
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 // Load the product list from the JSON file
 const data = JSON.parse(fs.readFileSync('products.json'));
