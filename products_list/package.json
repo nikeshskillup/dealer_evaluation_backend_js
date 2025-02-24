@@ -1,0 +1,16 @@
+{
+  "name": "dealer_evaluation_backend",
+  "version": "1.0.0",
+  "description": "Dealer Evaluation Backend converted from Python to JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
